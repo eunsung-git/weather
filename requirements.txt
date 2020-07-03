@@ -24,6 +24,7 @@ pilkit==2.0
 Pillow==7.1.2
 pyparsing==2.4.7
 python-dateutil==2.8.1
+python-decouple==3.3
 pytz==2020.1
 PyWavelets==1.1.1
 requests==2.24.0
