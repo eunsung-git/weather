@@ -114,7 +114,8 @@ def clothes(request): # 옷 업로드
 
 
 def closet(request):  # 옷 업로드 확인
-    clothes_list = Closet.objects.all()
+    clothes_list = request.user.closet_set.all()
+
     context = {
         'clothes_list': clothes_list,
     }
