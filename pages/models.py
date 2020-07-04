@@ -1,6 +1,4 @@
 from django.db import models
-from imagekit.models import ProcessedImageField
-from imagekit.processors import Thumbnail
 from django.conf import settings
 
 class Profile(models.Model):
